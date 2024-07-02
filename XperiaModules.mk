@@ -22,7 +22,6 @@ TARGET_SUPPORTS_HIGH_REFRESH_RATE ?= true
 TARGET_SUPPORTS_HIGH_POLLING_RATE ?= true
 TARGET_SUPPORTS_SOUND_ENHANCEMENT ?= true
 TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS ?= true
-TARGET_SUPPORTS_BATTERY_CARE ?= true
 TARGET_SUPPORTS_EUICC ?= true
 
 # Soong Namespace
@@ -65,11 +64,6 @@ ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS),true)
 	PRODUCT_PACKAGES += \
 	XperiaAudioDTS \
 	XperiaTSRA
-endif
-
-ifeq ($(TARGET_SUPPORTS_BATTERY_CARE),true)
-include hardware/sony/XperiaModules/XperiaCharger/sepolicy/qti/SEPolicy.mk
-	PRODUCT_PACKAGES += XperiaCharger
 endif
 
 ifeq ($(TARGET_SUPPORTS_EUICC),true)
