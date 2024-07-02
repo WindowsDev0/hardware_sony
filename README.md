@@ -20,5 +20,5 @@ include hardware/sony/XperiaModules.mk
 |`TARGET_SUPPORTS_HIGH_POLLING_RATE`|`Ships Xperia Touch, which is used to enable a High Polling Rate.`|
 |`TARGET_SUPPORTS_SOUND_ENHANCEMENT `|`Ships various things needed for Dolby Sound and 360 Reality Audio Upmix.`|
 |`TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS `|`Ships various things needed for DTS:X Ultra.`|
-|`TARGET_SUPPORTS_BATTERY_CARE `|`As it says, this ships Battery Care (And H.S. Power Control, aka. "Pause Charging").`|
+|`TARGET_SUPPORTS_BATTERY_CARE `|`As it says, this ships Battery Care (And H.S. Power Control, aka. "Pause Charging"). THIS FUNCTION IS CURRENTLY BEING REWORKED`|
 |`TARGET_SUPPORTS_EUICC `|`Ships XperiaEUICC, needed for devices which have eSIM support.`|
