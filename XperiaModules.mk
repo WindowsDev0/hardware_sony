@@ -21,6 +21,7 @@ TARGET_SUPPORTS_IMAGE_ENHANCEMENT ?= true
 TARGET_SUPPORTS_HIGH_REFRESH_RATE ?= true
 TARGET_SUPPORTS_HIGH_POLLING_RATE ?= true
 TARGET_SUPPORTS_SOUND_ENHANCEMENT ?= true
+TARGET_SUPPORTS_SOUND_ENHANCEMENT_ADDON ?= true
 TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS ?= true
 TARGET_SUPPORTS_EUICC ?= true
 
@@ -55,9 +56,13 @@ include hardware/sony/XperiaModules/XperiaTouch/sepolicy/SEPolicy.mk
 endif
 
 ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT),true)
+	PRODUCT_PACKAGES += XperiaAudio
+endif
+
+ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT_ADDON),true)
 	PRODUCT_PACKAGES += \
-	XperiaAudio \
-        XperiaAudioAddon
+	XperiaAudioPlus \
+	XperiaAudioAddon
 endif
 
 ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS),true)
