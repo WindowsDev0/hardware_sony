@@ -24,11 +24,11 @@
     <string name="audio_menu_header">音の質</string>
     <string name="dolby_title">Dolby Sound</string>
     <string name="dolby_summary">Dolby Sound の設定を調整して、映画、音楽、ゲームに命を吹き込む、包み込まれるような臨場感あふれる多次元サウンドを体験してください。</string>
-    <string name="dtsx_title">DTS:X Ultra</string>
-    <string name="dtsx_summary">DTS:X Ultra は、3 次元空間効果とユーザー調整可能なイコライザーによりオーディオ品質を向上させ、より魅力的なエンターテイメント環境を可能にします</string>
+    <string name="threesixtyra_title">360 リアリティオーディオ</string>
+    <string name="threesixtyra_summary">ここをタップして音質をカスタマイズします</string>
     <string name="threesixtyupmix_title">360 アップミックス</string>
-    <string name="threesixtyupmix_summary">Sony の 360リアリティオーディオアップミックス (360 アップミックス) テクノロジーを使用すると、通常のステレオ ソースで空間的で臨場感のあるサウンドを楽しむことができます</string>
+    <string name="threesixtyupmix_summary">Sony の 360 Reality Audio Upmix (360 Upmix) テクノロジーを使用すると、通常のステレオ ソースで空間的で臨場感のあるサウンドを楽しむことができます。\n詳細については、360 Reality Audio を確認してください。</string>
     <string name="effectpriority_title">効果の優先度</string>
     <string name="effectpriority_summary">360 アップミックス アプリは、アプリのメディア サウンドに関して、オンにした他のエフェクト (360 アップミックスを備えたドルビー サウンド、または 360 アップミックスのみのいずれか) よりも常に優先されます。</string>
-    <string name="audio_menu_footer">ドルビー サウンド コンテンツまたは 360 リアリティ オーディオ コンテンツの再生中は、コンテンツの情報がこの画面の設定より優先されます。ドルビー サウンドと 360 アップミックスの両方がオフの場合でも、高解像度のコンテンツは適切に再生できます。\n\n\n\n空間オーディオについて\n360 リアリティ オーディオ機能を有効にするには、空間サウンドをオンにしてください。\nドルビーサウンドは空間オーディオをサポートしていません。</string>
+    <string name="audio_menu_footer">ドルビー サウンド コンテンツまたは 360 リアリティ オーディオ コンテンツの再生中は、コンテンツの情報がこの画面の設定より優先されます。ドルビー サウンドと 360 アップミックスの両方がオフの場合でも、高解像度のコンテンツは適切に再生できます。\n\n\n\n空間オーディオについて\n360 リアリティ オーディオ機能を有効にするには、空間サウンドをオンにしてください。</string>
 </resources>
