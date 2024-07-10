@@ -24,11 +24,11 @@
     <string name="audio_menu_header">Jakość Dźwięku</string>
     <string name="dolby_title">Dolby Sound</string>
     <string name="dolby_summary">Dostosuj ustawienia Dolby Sound, aby doświadczyć wciągającego, wielowymiarowego dźwięku, który Cię otacza, ożywiając filmy, muzykę i gry</string>
-    <string name="dtsx_title">DTS:X Ultra</string>
-    <string name="dtsx_summary">DTS:X Ultra poprawia jakość dźwięku dzięki trójwymiarowym efektom przestrzennym i regulowanemu przez użytkownika korektorowi, umożliwiając bardziej wciągające środowisko rozrywki</string>
+    <string name="threesixtyra_title">360 Reality Audio</string>
+    <string name="threesixtyra_summary">Kliknij tutaj aby spersonalizować jakość dźwięku</string>
     <string name="threesixtyupmix_title">360 Upmix</string>
-    <string name="threesixtyupmix_summary">Dzięki technologii Sony 360 Audio Rzeczywistości Upmix (360 Upmix) możesz cieszyć się przestrzennym i wciągającym dźwiękiem ze zwykłych źródeł stereo</string>
+    <string name="threesixtyupmix_summary">Dzięki technologii Sony 360 Reality Audio Upmix (360 Upmix) możesz cieszyć się przestrzennym i wciągającym dźwiękiem ze zwykłych źródeł stereo\nSprawdź szczegóły 360 Reality Audio.</string>
     <string name="effectpriority_title">Priorytet Efektu</string>
     <string name="effectpriority_summary">Aplikacja 360 Upmix będzie zawsze miała pierwszeństwo przed innymi włączonymi efektami (albo dźwiękiem Dolby z funkcją 360 Upmix, albo samym 360 Upmix) w zakresie dźwięku multimedialnego aplikacji.</string>
-    <string name="audio_menu_footer">Podczas odtwarzania treści Dolby Sound lub 360 Reality Audio informacje o zawartości mają pierwszeństwo przed ustawieniami na tym ekranie. Treści o wysokiej rozdzielczości można również odtwarzać prawidłowo, gdy wyłączone są zarówno dźwięk Dolby, jak i 360 Upmix.\n\n\n\nInformacje o dźwięku przestrzennym\nAby włączyć funkcję 360 Reality Audio, włącz dźwięk przestrzenny.\nDźwięk Dolby nie obsługuje dźwięku przestrzennego.</string>
+    <string name="audio_menu_footer">Podczas odtwarzania treści Dolby Sound lub 360 Reality Audio informacje o zawartości mają pierwszeństwo przed ustawieniami na tym ekranie. Treści o wysokiej rozdzielczości można również odtwarzać prawidłowo, gdy wyłączone są zarówno dźwięk Dolby, jak i 360 Upmix.\n\n\n\nInformacje o dźwięku przestrzennym\nAby włączyć funkcję 360 Reality Audio, włącz dźwięk przestrzenny.</string>
 </resources>

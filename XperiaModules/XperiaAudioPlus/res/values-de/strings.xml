@@ -25,10 +25,10 @@
     <string name="dolby_title">Dolby Sound</string>
     <string name="dolby_summary">Passen Sie die Dolby Sound-Einstellungen an, um einen immersiven, mehrdimensionalen Klang zu erleben, der Sie einhüllt und Filme, Musik und Spiele zum Leben erweckt</string>
     <string name="threesixtyra_title">360 Reality Audio</string>
-    <string name="threesixtyra_summary">Tippen Sie hier, um die Klangqualität zu personalisieren</string>
+    <string name="threesixtyra_summary">Tippen Sie hier um die Klangqualität zu personalisieren</string>
     <string name="threesixtyupmix_title">360 Upmix</string>
     <string name="threesixtyupmix_summary">Mit der 360 Reality Audio Upmix (360 Upmix)-Technologie von Sony können Sie räumlichen und immersiven Klang mit herkömmlichen Stereoquellen genießen</string>
     <string name="effectpriority_title">Effektpriorität</string>
     <string name="effectpriority_summary">Die 360 Upmix-App hat für den Mediensound von Apps immer Vorrang vor den anderen von Ihnen aktivierten Effekten (entweder Dolby Sound mit 360 Upmix oder nur 360 Upmix allein).</string>
-    <string name="audio_menu_footer">Bei der Wiedergabe von Dolby Sound-Inhalten oder 360 Reality Audio-Inhalten haben die Inhaltsinformationen Vorrang vor den Einstellungen auf diesem Bildschirm. Hochauflösende Inhalte können auch ordnungsgemäß wiedergegeben werden, wenn sowohl Dolby Sound als auch 360 Upmix ausgeschaltet sind.\n\n\n\nÜber Spatial Audio\nUm die 360 Reality Audio-Funktion zu aktivieren, schalten Sie Spatial Sound ein.\Dolby Sound unterstützt kein Spatial Audio.</string>
+    <string name="audio_menu_footer">Bei der Wiedergabe von Dolby Sound-Inhalten oder 360 Reality Audio-Inhalten haben die Inhaltsinformationen Vorrang vor den Einstellungen auf diesem Bildschirm. Hochauflösende Inhalte können auch ordnungsgemäß wiedergegeben werden, wenn sowohl Dolby Sound als auch 360 Upmix ausgeschaltet sind.\n\n\n\nÜber Spatial Audio\nUm die 360 Reality Audio-Funktion zu aktivieren, schalten Sie Spatial Sound ein.</string>
 </resources>

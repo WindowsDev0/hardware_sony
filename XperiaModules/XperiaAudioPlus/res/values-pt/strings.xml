@@ -24,11 +24,11 @@
     <string name="audio_menu_header">Qualidade de Áudio</string>
     <string name="dolby_title">Dolby Sound</string>
     <string name="dolby_summary">Ajuste definições de som Dolby para uma experiência de áudio imersiva e multidimensional</string>
-    <string name="dtsx_title">DTS:X Ultra</string>
-    <string name="dtsx_summary">DTS:X Ultra melhora a qualidade do áudio com efeitos espaciais tridimensionais e um equalizador ajustável pelo usuário, permitindo um ambiente de entretenimento mais envolvente</string>
+    <string name="threesixtyra_title">360 Reality Audio</string>
+    <string name="threesixtyra_summary">Toque aqui para personalizar a qualidade de som</string>
     <string name="threesixtyupmix_title">360 Upmix</string>
-    <string name="threesixtyupmix_summary">Com a exclusiva tecnologia 360 Realidade Áudio Upmix da Sony, pode desfrutar de som espacial e envolvente a partir de fontes de som estéreo normais</string>
+    <string name="threesixtyupmix_summary">Com a exclusiva tecnologia 360 Reality Audio Upmix da Sony, pode desfrutar de som espacial e envolvente a partir de fontes de som estéreo normaisn\Consulte 360 Reality Audio para obter mais detalhes.</string>
     <string name="effectpriority_title">Prioridade de Efeitos</string>
     <string name="effectpriority_summary">A aplicação 360 Upmix terá prioridade sobre outros efeitos aplicados (como Dolby Sound com 360 Upmix ou apenas 360 Upmix) ao áudio das aplicações.</string>
-    <string name="audio_menu_footer">Ao reproduzir conteúdo Dolby Sound ou conteúdo 360 Reality Audio, as informações do conteúdo terão prioridade sobre as configurações nesta tela. O conteúdo de alta resolução também pode ser reproduzido corretamente quando o Dolby Sound e o 360 Upmix estão desativados.\n\n\n\nSobre o Áudio Espacial\nPara ativar o recurso 360 Reality Audio, ative o Som Espacial.\nDolby Sound não suporta áudio espacial.</string>
+    <string name="audio_menu_footer">Ao reproduzir conteúdo Dolby Sound ou conteúdo 360 Reality Audio, as informações do conteúdo terão prioridade sobre as configurações nesta tela. O conteúdo de alta resolução também pode ser reproduzido corretamente quando o Dolby Sound e o 360 Upmix estão desativados.\n\n\n\nSobre o Áudio Espacial\nPara ativar o recurso 360 Reality Audio, ative o Som Espacial.</string>
 </resources>

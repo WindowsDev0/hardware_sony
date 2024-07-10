@@ -24,11 +24,11 @@
     <string name="audio_menu_header">Ljudkvalitet</string>
     <string name="dolby_title">Dolby Sound</string>
     <string name="dolby_summary">Justera Dolby Sound-inställningarna för att uppleva ett uppslukande, flerdimensionellt ljud som omsluter dig och väcker filmer, musik och spel till liv</string>
-    <string name="dtsx_title">DTS:X Ultra</string>
-    <string name="dtsx_summary">DTS:X Ultra förbättrar ljudkvaliteten med tredimensionella rumsliga effekter och en användarjusterbar equalizer, vilket möjliggör en mer engagerande underhållningsmiljö</string>
+    <string name="threesixtyra_title">360 Reality Audio</string>
+    <string name="threesixtyra_summary">Tryck här för att anpassa ljudkvaliteten</string>
     <string name="threesixtyupmix_title">360 Upmix</string>
-    <string name="threesixtyupmix_summary">Med Sonys c Upmix (360 Upmix)-teknik kan du njuta av rumsligt och uppslukande ljud med vanliga stereokällor\nKontrollera 360 Reality Audio för detaljer.</string>
+    <string name="threesixtyupmix_summary">Med Sonys 360 Reality Audio Upmix (360 Upmix)-teknik kan du njuta av rumsligt och uppslukande ljud med vanliga stereokällor\nKontrollera 360 Reality Audio för detaljer.</string>
     <string name="effectpriority_title">Effektprioritet</string>
     <string name="effectpriority_summary">360 Upmix-appen kommer alltid att ha prioritet över de andra effekterna du har aktiverat (antingen Dolby Sound med 360 Upmix eller bara 360 Upmix i sig själv) för apparnas medialjud.</string>
-    <string name="audio_menu_footer">När du spelar upp Dolby Sound-innehåll eller 360 Reality Audio-innehåll kommer innehållets information att ha företräde framför inställningarna på den här skärmen. Högupplöst innehåll kan också spelas upp korrekt när både Dolby Sound och 360 Upmix är avstängda.\n\n\n\nOm Spatial Audio\nFör att aktivera 360 Reality Audio-funktionen, aktivera Spatial Sound.\nDolby Sound stöder inte Spatial Audio.</string>
+    <string name="audio_menu_footer">När du spelar upp Dolby Sound-innehåll eller 360 Reality Audio-innehåll kommer innehållets information att ha företräde framför inställningarna på den här skärmen. Högupplöst innehåll kan också spelas upp korrekt när både Dolby Sound och 360 Upmix är avstängda.\n\n\n\nOm Spatial Audio\nFör att aktivera 360 Reality Audio-funktionen, aktivera Spatial Sound.</string>
 </resources>

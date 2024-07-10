@@ -30,5 +30,5 @@
     <string name="threesixtyupmix_summary">सोनी की 360 Reality Audio अपमिक्स (360 Upmix) तकनीक के साथ, आप नियमित स्टीरियो स्रोतों के साथ स्थानिक और इमर्सिव ध्वनि का आनंद ले सकते हैं\nविवरण के लिए 360 Reality Audio देखें।</string>
     <string name="effectpriority_title">प्रभाव प्राथमिकता</string>
     <string name="effectpriority_summary">360 Upmix ऐप हमेशा आपके द्वारा चालू किए गए अन्य प्रभावों (या तो Dolby Sound के साथ 360 Upmix या केवल 360 Upmix) पर ऐप्स के मीडिया साउंड के लिए प्राथमिकता लेगा।</string>
-    <string name="audio_menu_footer">Dolby Sound सामग्री या 360 Reality Audio सामग्री चलाते समय, सामग्री की जानकारी इस स्क्रीन पर सेटिंग्स पर प्राथमिकता लेगी। उच्च रिज़ॉल्यूशन सामग्री को तब भी ठीक से चलाया जा सकता है जब Dolby Sound और 360 Upmix दोनों बंद हों।\n\n\n\nस्थानिक ऑडियो के बारे में\n360 Reality Audio सुविधा को सक्षम करने के लिए, स्थानिक ध्वनि चालू करें।\nDolby Sound स्थानिक ऑडियो का समर्थन नहीं करता है।</string>
+    <string name="audio_menu_footer">Dolby Sound सामग्री या 360 Reality Audio सामग्री चलाते समय, सामग्री की जानकारी इस स्क्रीन पर सेटिंग्स पर प्राथमिकता लेगी। उच्च रिज़ॉल्यूशन सामग्री को तब भी ठीक से चलाया जा सकता है जब Dolby Sound और 360 Upmix दोनों बंद हों।\n\n\n\nस्थानिक ऑडियो के बारे में\n360 Reality Audio सुविधा को सक्षम करने के लिए, स्थानिक ध्वनि चालू करें।</string>
 </resources>

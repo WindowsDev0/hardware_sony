@@ -24,11 +24,11 @@
     <string name="audio_menu_header">Hangminőség</string>
     <string name="dolby_title">Dolby Sound</string>
     <string name="dolby_summary">Módosítsa a Dolby Sound beállításait, hogy magával ragadó, többdimenziós hangzást tapasztaljon, amely magával ragad, életre keltve a filmeket, zenét és játékokat.</string>
-    <string name="dtsx_title">DTS:X Ultra</string>
-    <string name="dtsx_summary">A DTS:X Ultra háromdimenziós térhatásokkal és a felhasználó által állítható hangszínszabályzóval javítja a hangminőséget, így vonzóbb szórakoztató környezetet biztosít</string>
+    <string name="threesixtyra_title">360 Reality Audio</string>
+    <string name="threesixtyra_summary">Koppintson ide a hangminőség személyre szabásához</string>
     <string name="threesixtyupmix_title">360 Upmix</string>
-    <string name="threesixtyupmix_summary">A Sony 360 Reality Audio Upmix (360 Upmix) technológiájával térbeli és magával ragadó hangzást élvezhet hagyományos sztereó forrásokkal</string>
+    <string name="threesixtyupmix_summary">A Sony 360 Reality Audio Upmix (360 Upmix) technológiájával térbeli és magával ragadó hangzást élvezhet hagyományos sztereó forrásokkal\nRészleteket a 360 Reality Audio oldalon találhat.</string>
     <string name="effectpriority_title">Hatás Prioritás</string>
     <string name="effectpriority_summary">A 360 Upmix alkalmazás mindig elsőbbséget élvez a többi bekapcsolt effektussal szemben (vagy Dolby Sound 360 Upmix-el, vagy csak 360 Upmix önmagában) az alkalmazások médiahangzásához.</string>
-    <string name="audio_menu_footer">Dolby Sound vagy 360 Reality Audio tartalom lejátszásakor a tartalom információi elsőbbséget élveznek a képernyőn megjelenő beállításokkal szemben. A nagy felbontású tartalom akkor is megfelelően lejátszható, ha a Dolby Sound és a 360 Upmix is ki van kapcsolva.\n\n\n\nA Spatial Audio funkcióról\nA 360 Reality Audio funkció engedélyezéséhez kapcsolja be a Spatial Sound funkciót.\nA Dolby Sound nem támogatja a térbeli hangot.</string>
+    <string name="audio_menu_footer">Dolby Sound vagy 360 Reality Audio tartalom lejátszásakor a tartalom információi elsőbbséget élveznek a képernyőn megjelenő beállításokkal szemben. A nagy felbontású tartalom akkor is megfelelően lejátszható, ha a Dolby Sound és a 360 Upmix is ki van kapcsolva.\n\n\n\nA Spatial Audio funkcióról\nA 360 Reality Audio funkció engedélyezéséhez kapcsolja be a Spatial Sound funkciót.</string>
 </resources>

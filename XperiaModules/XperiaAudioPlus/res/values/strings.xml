@@ -30,5 +30,5 @@
     <string name="threesixtyupmix_summary">With Sony\'s 360 Reality Audio Upmix (360 Upmix) technology, you can enjoy spatial and immersive sound with regular stereo sources\nCheck 360 Reality Audio for details.</string>
     <string name="effectpriority_title">Effect Priority</string>
     <string name="effectpriority_summary">The 360 Upmix app will always take priority over the other effects you\'ve turned on (either Dolby Sound with 360 Upmix or just 360 Upmix by itself) for the media sound of apps.</string>
-    <string name="audio_menu_footer">While playing Dolby Sound content or 360 Reality Audio content, the content\'s information will take precedence over the settings on this screen. High resolution content can also be play properly when both Dolby Sound and 360 Upmix are turned off.\n\n\n\nAbout Spatial Audio\nTo enable the 360 Reality Audio feature, turn on Spatial Sound.\nDolby Sound does not support Spatial Audio.</string>
+    <string name="audio_menu_footer">While playing Dolby Sound content or 360 Reality Audio content, the content\'s information will take precedence over the settings on this screen. High resolution content can also be play properly when both Dolby Sound and 360 Upmix are turned off.\n\n\n\nAbout Spatial Audio\nTo enable the 360 Reality Audio feature, turn on Spatial Sound.</string>
 </resources>
