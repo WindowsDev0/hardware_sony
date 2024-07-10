@@ -19,6 +19,10 @@ allow hal_camera_default sysfs_torch_brightness:file rw_file_perms;
 allow hal_camera_default vendor_sysfs_graphics:file rw_file_perms;
 allow hal_camera_default vendor_sysfs_kgsl:file r_file_perms;
 
+allow hal_camera_default xtra_control_prop:file { open getattr map };
+allow hal_camera_default zram_config_prop:file { open getattr map };
+allow hal_camera_default zram_control_prop:file { open getattr map };
+
 rw_dir_file(hal_camera_default, sysfs_leds)
 
 get_prop(hal_camera_default, vendor_tee_listener_prop)

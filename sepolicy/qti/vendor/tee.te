@@ -5,6 +5,8 @@ allow tee system_data_file:dir r_dir_perms;
 allow tee fingerprintd_data_file:dir rw_dir_perms;
 allow tee fingerprintd_data_file:file create_file_perms;
 
+allow tee rootfs:dir open;
+
 # Ignore all logging requests
 dontaudit tee storage_file:dir search;
 dontaudit tee mnt_user_file:dir r_dir_perms;

@@ -1,0 +1,5 @@
+type hal_lineage_health_default, domain;
+type sysfs_battchg_ext, fs_type, sysfs_type;
+
+allow hal_lineage_health_default sysfs_battchg_ext:dir search;
+allow hal_lineage_health_default sysfs_battchg_ext:file { read write open getattr };
