@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.xperia.powershare@1.0-service.sony"
+#define LOG_TAG "vendor.lineage.powershare@1.0-service.sony"
 
 #include <android-base/logging.h>
 #include <android-base/strings.h>
@@ -23,7 +23,7 @@
 #include <powershare/sony/PowerShare.h>
 
 namespace vendor {
-namespace xperia {
+namespace lineage {
 namespace powershare {
 namespace V1_0 {
 namespace implementation {
@@ -65,5 +65,5 @@ Return<uint32_t> PowerShare::setMinBattery(uint32_t /*minBattery*/) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace powershare
-}  // namespace xperia
+}  // namespace lineage
 }  // namespace vendor

@@ -18,10 +18,10 @@
 
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/xperia/powershare/1.0/IPowerShare.h>
+#include <vendor/lineage/powershare/1.0/IPowerShare.h>
 
 namespace vendor {
-namespace xperia {
+namespace lineage {
 namespace powershare {
 namespace V1_0 {
 namespace implementation {
@@ -41,5 +41,5 @@ class PowerShare : public IPowerShare {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace powershare
-}  // namespace xperia
+}  // namespace lineage
 }  // namespace vendor
