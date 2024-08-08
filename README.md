@@ -1,7 +1,7 @@
 # hardware_sony Repository
 
 ## DISCLAIMER
-- All Sony applications (from the stock ROM) are owned by and Sony™.
+- All Sony applications (from the stock ROM) are owned by Sony™.
 
 ## How to Include hw_sony in your DT (Device Tree)?
 - Inherit the extras repo (for your specific series) from your device.mk as shown
