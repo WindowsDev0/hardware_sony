@@ -1,11 +1,26 @@
-//
-// Copyright (C) 2024 XperiaLabs Project
-// SPDX-License-Identifier: Apache-2.0
-//
+android_app {
+    name: "XperiaCharger",
+    defaults: ["SettingsLibDefaults"],
 
-prebuilt_etc {
-    name: "ueventd.sony.rc",
-    filename: "ueventd.rc",
-    src: "ueventd.sony.rc",
-    device_specific: true,
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+    ],
+    resource_dirs: ["res"],
+
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+    privileged: true,
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.preference_preference",
+        "androidx.core_core-ktx",
+        "vendor.sony.charger-V1-java",
+    ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }

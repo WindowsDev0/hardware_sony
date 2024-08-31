@@ -9,6 +9,7 @@ package com.xperia.settings.audio
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
+import com.android.settingslib.widget.R
 import com.xperia.settings.audio.R
  
 class AudioSettingsActivity : CollapsingToolbarBaseActivity() {

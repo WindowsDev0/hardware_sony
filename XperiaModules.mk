@@ -46,13 +46,8 @@ ifeq ($(TARGET_SUPPORTS_IMAGE_ENHANCEMENT),true)
 endif
 
 ifeq ($(TARGET_SUPPORTS_BATTERY_CARE),true)
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/battchg_ext/smart_charging_interruption
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
-
-PRODUCT_PACKAGES += \
-    ueventd.sony.rc \
-    vendor.lineage.health-service.default
+include hardware/sony/XperiaModules/XperiaCharger/sepolicy/qti/SEPolicy.mk
+	PRODUCT_PACKAGES += XperiaCharger
 endif
 
 ifeq ($(TARGET_SUPPORTS_HIGH_REFRESH_RATE),true)

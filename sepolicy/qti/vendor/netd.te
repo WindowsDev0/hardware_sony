@@ -1,1 +1,0 @@
-allow netd untrusted_app:dir search;
