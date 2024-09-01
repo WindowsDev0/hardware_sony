@@ -17,6 +17,7 @@ class DisplaySettingsActivity : CollapsingToolbarBaseActivity() {
         fragmentManager
                 .beginTransaction()
                 .replace(R.id.content_frame, DisplaySettingsFragment(), TAG)
+                .commit()
     }
 
     companion object {
