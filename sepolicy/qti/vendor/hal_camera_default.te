@@ -15,9 +15,22 @@ allow hal_camera_default hal_camera_sync:chr_file rw_file_perms;
 allow hal_camera_default sony_camera_device:chr_file rw_file_perms;
 
 allow hal_camera_default sysfs_camera:file rw_file_perms;
+allow hal_camera_default sysfs_led_torch:file rw_file_perms;
 allow hal_camera_default sysfs_torch_brightness:file rw_file_perms;
 allow hal_camera_default vendor_sysfs_graphics:file rw_file_perms;
 allow hal_camera_default vendor_sysfs_kgsl:file r_file_perms;
+
+allow hal_camera_default aac_drc_prop:file { open getattr map };
+allow hal_camera_default ab_update_gki_prop:file { open getattr map };
+allow hal_camera_default adaptive_haptics_prop:file { open getattr map };
+
+allow hal_camera_default adbd_config_prop:file { open getattr map };
+allow hal_camera_default apex_ready_prop:file { open getattr map };
+allow hal_camera_default apexd_config_prop:file { open getattr map };
+
+allow hal_camera_default init:binder call;
+
+allow hal_camera_default sysfs:file rw_file_perms; 
 
 rw_dir_file(hal_camera_default, sysfs_leds)
 

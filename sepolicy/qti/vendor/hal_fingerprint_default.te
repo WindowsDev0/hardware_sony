@@ -18,6 +18,8 @@ allow hal_fingerprint_default vendor_hal_perf_hwservice:hwservice_manager find;
 
 allow hal_vibrator_default proc_asound:file r_file_perms;
 
+allow hal_fingerprint_default init:binder call;
+
 r_dir_file(hal_fingerprint_default, vendor_sysfs_battery_supply)
 
 set_prop(hal_fingerprint_default, vendor_fingerprint_hwid_prop)

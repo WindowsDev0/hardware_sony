@@ -75,3 +75,6 @@
 
 # NV config data file
 /data/vendor/misc/nvconfig(/.*)?    u:object_r:nvconfig_file_type:s0
+
+# Thermal Engine
+/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.mock                                                u:object_r:hal_thermal_default_exec:s0

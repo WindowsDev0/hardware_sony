@@ -1,0 +1,2 @@
+allow system_server init:binder call;
+allow system_server vendor_default_prop:file { read open getattr map };

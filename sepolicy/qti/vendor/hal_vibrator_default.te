@@ -10,4 +10,8 @@ allow hal_vibrator_default vendor_hal_miscta_hwservice:hwservice_manager find;
 allow hal_vibrator_default proc_asound:dir r_dir_perms;
 allow hal_vibrator_default sysfs_leds:dir search;
 
+allow hal_vibrator_default sysfs:file rw_file_perms;
+
+allow hal_vibrator_default sysfs_vibrator:file open;
+
 set_prop(hal_vibrator_default, vendor_vibrator_prop)

@@ -28,6 +28,8 @@ allow idd idd_socket_file:sock_file create_file_perms;
 
 allow idd vendor_hal_secd_hwservice:hwservice_manager find;
 
+allow idd unlabeled:file getattr;
+
 dontaudit idd logdr_socket:sock_file w_file_perms;
 
 get_prop(idd, hwservicemanager_prop)

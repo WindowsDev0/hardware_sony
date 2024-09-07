@@ -11,5 +11,7 @@ allow vendor_hal_disp_default system_server:binder call;
 
 allow vendor_hal_disp_default vndbinder_device:chr_file rw_file_perms;
 
+allow vendor_hal_disp_default system_app:binder call;
+
 set_prop(vendor_hal_disp_default, vendor_display_color_prop)
 set_prop(vendor_hal_disp_default, vendor_display_prop)

@@ -1,2 +1,6 @@
 rw_dir_file(hal_power_default, sysfs_dp)
 rw_dir_file(hal_power_default, sysfs_tsp)
+
+allow hal_power_default sysfs:file { open write getattr };
+
+allow hal_power_default sysfs_tsp:file { open getattr };

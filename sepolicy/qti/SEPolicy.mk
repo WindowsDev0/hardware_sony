@@ -5,7 +5,8 @@
 #
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    hardware/sony/sepolicy/qti/vendor
+    hardware/sony/sepolicy/qti/vendor \
+    hardware/sony/sepolicy/qti/vendor/common-um
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     hardware/sony/sepolicy/qti/private

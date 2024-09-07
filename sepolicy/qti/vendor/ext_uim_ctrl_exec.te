@@ -9,4 +9,6 @@ allow ext_uim_ctrl proc_cmdline:file r_file_perms;
 
 allow ext_uim_ctrl vendor_toolbox_exec:file rx_file_perms;
 
+allow ext_uim_ctrl sysfs:file rw_file_perms;
+
 rw_dir_file(ext_uim_ctrl, sysfs_uim_ctrl)
