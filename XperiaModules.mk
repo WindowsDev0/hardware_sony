@@ -20,7 +20,8 @@ TARGET_SHIPS_XPERIA_SETTINGS_MENU ?= false
 TARGET_SUPPORTS_IMAGE_ENHANCEMENT ?= false
 TARGET_SUPPORTS_BATTERY_CARE ?= false
 TARGET_SUPPORTS_HIGH_REFRESH_RATE ?= false
-TARGET_SUPPORTS_HIGH_POLLING_RATE ?= false
+TARGET_SUPPORTS_HIGH_POLLING_RATE_SEC_TS ?= false
+TARGET_SUPPORTS_HIGH_POLLING_RATE_LXS_TS ?= false
 TARGET_SUPPORTS_SOUND_ENHANCEMENT ?= false
 TARGET_SUPPORTS_SOUND_ENHANCEMENT_ADDON ?= false
 TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS ?= false
@@ -59,10 +60,17 @@ ifeq ($(TARGET_SUPPORTS_HIGH_REFRESH_RATE),true)
 	PRODUCT_PACKAGES += XperiaSwitcher
 endif
 
-ifeq ($(TARGET_SUPPORTS_HIGH_POLLING_RATE),true)
-include hardware/sony/XperiaModules/XperiaTouch/sepolicy/SEPolicy.mk
+ifeq ($(TARGET_SUPPORTS_HIGH_POLLING_RATE_SEC_TS),true)
+include hardware/sony/XperiaModules/XperiaTouchSecTS/sepolicy/SEPolicy.mk
 	PRODUCT_PACKAGES += \
-	XperiaTouch \
+	XperiaTouchSecTS \
+	XperiaTouchOverlay
+endif
+
+ifeq ($(TARGET_SUPPORTS_HIGH_POLLING_RATE_LXS_TS),true)
+include hardware/sony/XperiaModules/XperiaTouchLXSTS/sepolicy/SEPolicy.mk
+	PRODUCT_PACKAGES += \
+	XperiaTouchLXSTS \
 	XperiaTouchOverlay
 endif
 
