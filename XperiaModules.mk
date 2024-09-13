@@ -61,14 +61,14 @@ ifeq ($(TARGET_SUPPORTS_HIGH_REFRESH_RATE),true)
 endif
 
 ifeq ($(TARGET_SUPPORTS_HIGH_POLLING_RATE_SEC_TS),true)
-include hardware/sony/XperiaModules/XperiaTouchSecTS/sepolicy/SEPolicy.mk
+include hardware/sony/XperiaModules/Touch/XperiaTouchSecTS/sepolicy/SEPolicy.mk
 	PRODUCT_PACKAGES += \
 	XperiaTouchSecTS \
 	XperiaTouchOverlay
 endif
 
 ifeq ($(TARGET_SUPPORTS_HIGH_POLLING_RATE_LXS_TS),true)
-include hardware/sony/XperiaModules/XperiaTouchLXSTS/sepolicy/SEPolicy.mk
+include hardware/sony/XperiaModules/Touch/XperiaTouchLXSTS/sepolicy/SEPolicy.mk
 	PRODUCT_PACKAGES += \
 	XperiaTouchLXSTS \
 	XperiaTouchOverlay
