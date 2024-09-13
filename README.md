@@ -17,7 +17,8 @@ include hardware/sony/XperiaModules.mk
 |`TARGET_SHIPS_XPERIA_SETTINGS_MENU`|`Ships a modified Xperia Settings that shows up on the main settings page Broken on some ROMs, in those cases use TARGET_SHIPS_XPERIA_SETTINGS instead`|
 |`TARGET_SUPPORTS_IMAGE_ENHANCEMENT`|`Ships Creator Mode & X-Reality Engine`|
 |`TARGET_SUPPORTS_HIGH_REFRESH_RATE`|`Ships Xperia Switcher, which is used to enable a High Refresh Rate`|
-|`TARGET_SUPPORTS_HIGH_POLLING_RATE`|`Ships Xperia Touch, which is used to enable a High Polling Rate`|
+|`TARGET_SUPPORTS_HIGH_POLLING_RATE_SEC_TS`|`Ships Xperia Touch, which is used to enable a High Polling Rate (Mark I-IV series)`|
+|`TARGET_SUPPORTS_HIGH_POLLING_RATE_LXS_TS`|`Ships Xperia Touch, which is used to enable a High Polling Rate (Mark V series)`|
 |`TARGET_SUPPORTS_SOUND_ENHANCEMENT`|`Ships various things needed for Dolby Sound and 360 Reality Audio Upmix`|
 |`TARGET_SUPPORTS_SOUND_ENHANCEMENT_ADDON`|`Same as TARGET_SUPPORTS_SOUND_ENHANCEMENT but ships the "Audio Settings" app from the stock ROM for Dolby and the Wind Filter function (Please keep in mind this may not work on all devices)`|
 |`TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS`|`Ships various things needed for DTS:X Ultra`|
