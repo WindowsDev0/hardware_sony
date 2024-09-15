@@ -40,11 +40,6 @@
                 android:exported="false"
                 android:theme="@style/Theme.SubSettingsBase"
                 android:label="@string/audio_menu_title">
-            <intent-filter>
-                <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.CATEGORY_CONTENT_MUSIC" />
-            </intent-filter>
         </activity>
 
     </application>
