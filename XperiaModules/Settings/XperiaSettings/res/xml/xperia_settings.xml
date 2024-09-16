@@ -40,6 +40,17 @@
                 android:targetClass="com.xperia.settings.audio.AudioSettingsActivity" />
         </Preference>
 
+       <Preference
+            android:key="mvib_settings"
+            android:icon="@drawable/ic_dynamic_vibration"
+            android:title="@string/mvib_settings_title"
+            android:summary="@string/mvib_settings_summary"
+            android:persistent="false">
+            <intent
+                android:targetPackage="com.sony.xperia.haptic"
+                android:targetClass="com.sony.xperia.haptic.MediaVibrationSettingsActivity" />
+        </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -20,6 +20,8 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
     private val displayClassName = "com.xperia.settings.display.DisplaySettingsActivity"
     private val audioPackageName = "com.xperia.settings.audio"
     private val audioClassName = "com.xperia.settings.audio.AudioSettingsActivity"
+    private val mvibPackageName = "com.sony.xperia.haptic"
+    private val mvibClassName = "com.sony.xperia.haptic.MediaVibrationSettingsActivity"
     private val batteryPackageName = "com.xperia.settings.charger"
     private val batteryClassName = "com.xperia.settings.charger.ChargerSettingsActivity"
     private val extmonPackageName = "com.sonymobile.extmonitorapp"
@@ -51,7 +53,6 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
             category?.isVisible = false
         }
     }
-
     fun setupAudioSettings() {
         try {
             val packageInfo = pm?.getPackageInfo(audioPackageName, PackageManager.GET_ACTIVITIES)
@@ -69,6 +70,27 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("sound")
             fragment.findPreference<Preference>("audio_settings")?.isVisible = false
+            category?.isVisible = false
+        }
+    }
+    fun setupMVibSettings() {
+        try {
+            val packageInfo = pm?.getPackageInfo(mvibPackageName, PackageManager.GET_ACTIVITIES)
+            if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
+                fragment.findPreference<Preference>("mvib_settings")?.isVisible = true
+                val intent = Intent().apply {
+                    setClassName(mvibPackageName, mvibClassName)
+                }
+                fragment.findPreference<Preference>("mvib_settings")?.intent = intent
+            } else {
+
+                val category = fragment.findPreference<PreferenceCategory>("sound")
+                fragment.findPreference<Preference>("mvib_settings")?.isVisible = true
+                category?.isVisible = true
+            }
+        } catch (e: PackageManager.NameNotFoundException) {
+            val category = fragment.findPreference<PreferenceCategory>("sound")
+            fragment.findPreference<Preference>("mvib_settings")?.isVisible = false
             category?.isVisible = false
         }
     }

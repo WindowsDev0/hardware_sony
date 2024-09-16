@@ -29,6 +29,10 @@
     <string name="audio_settings_title">Audio Settings</string>
     <string name="audio_settings_summary">Elevate your sound quality with the Dolby Sound EQ and 360 Reality Audio Upmix for a remarkable and immersive audio playback experience</string>
 
+    <!-- Dynamic Vibration (Media Vibration) -->
+    <string name="mvib_settings_title">Dynamic Vibration</string>
+    <string name="mvib_settings_summary">Enhance your media experience with vibrations when playing a movie, video, or listening to music</string>
+
     <!-- Charging Settings -->
     <string name="charging_title">Charging</string>
     <string name="charger_settings_title">Battery Care</string>
