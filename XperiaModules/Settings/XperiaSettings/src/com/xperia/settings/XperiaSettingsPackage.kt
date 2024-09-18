@@ -42,8 +42,8 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
                 fragment.findPreference<Preference>("display_settings")?.intent = intent
             } else {
                 val category = fragment.findPreference<PreferenceCategory>("display")
-                fragment.findPreference<Preference>("display_settings")?.isVisible = false
-                category?.isVisible = false
+                fragment.findPreference<Preference>("display_settings")?.isVisible = true
+                category?.isVisible = true
             }
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("display")
@@ -63,8 +63,8 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
                 fragment.findPreference<Preference>("audio_settings")?.intent = intent
             } else {
                 val category = fragment.findPreference<PreferenceCategory>("sound")
-                fragment.findPreference<Preference>("audio_settings")?.isVisible = false
-                category?.isVisible = false
+                fragment.findPreference<Preference>("audio_settings")?.isVisible = true
+                category?.isVisible = true
             }
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("sound")
@@ -84,8 +84,8 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
                 fragment.findPreference<Preference>("charging_settings")?.intent = intent
             } else {
                 val category = fragment.findPreference<PreferenceCategory>("charger")
-                fragment.findPreference<Preference>("charging_settings")?.isVisible = false
-                category?.isVisible = false
+                fragment.findPreference<Preference>("charging_settings")?.isVisible = true
+                category?.isVisible = true
             }
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("charger")
@@ -104,8 +104,8 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
                 fragment.findPreference<Preference>("usb_extmon_settings")?.intent = intent
             } else {
                 val category = fragment.findPreference<PreferenceCategory>("usb")
-                fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = false
-                category?.isVisible = false
+                fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = true
+                category?.isVisible = true
             }
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("usb")
@@ -144,8 +144,8 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
                 fragment.findPreference<Preference>("dsm_settings")?.intent = intent
             } else {
                 val category = fragment.findPreference<PreferenceCategory>("gaming")
-                fragment.findPreference<Preference>("dsm_settings")?.isVisible = false
-                category?.isVisible = false
+                fragment.findPreference<Preference>("dsm_settings")?.isVisible = true
+                category?.isVisible = true
             }
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("gaming")
@@ -165,8 +165,8 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
             } else {
 
                 val category = fragment.findPreference<PreferenceCategory>("gaming")
-                fragment.findPreference<Preference>("accui_settings")?.isVisible = false
-                category?.isVisible = false
+                fragment.findPreference<Preference>("accui_settings")?.isVisible = true
+                category?.isVisible = true
             }
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("gaming")
