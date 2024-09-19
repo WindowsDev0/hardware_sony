@@ -22,8 +22,6 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
     private val audioClassName = "com.xperia.settings.audio.AudioSettingsActivity"
     private val batteryPackageName = "com.xperia.settings.charger"
     private val batteryClassName = "com.xperia.settings.charger.ChargerSettingsActivity"
-    private val extmonPackageName = "com.sonymobile.extmonitorapp"
-    private val extmonClassName = "com.sonymobile.extmonitorapp.settings.SettingsAppLauncherActivity"
     private val usbaPackageName = "jp.co.sony.mc.usbextoutaudio"
     private val usbaClassName = "jp.co.sony.mc.usbextoutaudio.AudioSettingsActivity"
     private val dsmPackageName = "com.sonymobile.dualshockmanager"
@@ -90,26 +88,6 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
         } catch (e: PackageManager.NameNotFoundException) {
             val category = fragment.findPreference<PreferenceCategory>("charger")
             fragment.findPreference<Preference>("charging_settings")?.isVisible = false
-            category?.isVisible = false
-        }
-    }
-    fun setupExtMonSettings() {
-        try {
-            val packageInfo = pm?.getPackageInfo(extmonPackageName, PackageManager.GET_ACTIVITIES)
-            if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
-                fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = true
-                val intent = Intent().apply {
-                    setClassName(extmonPackageName, extmonClassName)
-                }
-                fragment.findPreference<Preference>("usb_extmon_settings")?.intent = intent
-            } else {
-                val category = fragment.findPreference<PreferenceCategory>("usb")
-                fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = false
-                category?.isVisible = false
-            }
-        } catch (e: PackageManager.NameNotFoundException) {
-            val category = fragment.findPreference<PreferenceCategory>("usb")
-            fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = false
             category?.isVisible = false
         }
     }

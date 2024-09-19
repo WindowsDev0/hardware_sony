@@ -63,17 +63,6 @@
         android:key="usb"
         android:title="@string/usb_title">
 
-       <Preference
-            android:key="usb_extmon_settings"
-            android:icon="@drawable/ic_external_monitor"
-            android:title="@string/usb_em_title"
-            android:summary="@string/usb_em_summary"
-            android:persistent="false">
-            <intent
-                 android:targetPackage="com.sonymobile.extmonitorapp"
-                 android:targetClass="com.sonymobile.extmonitorapp.settings.SettingsAppLauncherActivity" />
-        </Preference>
-
         <Preference
             android:key="usb_audio_settings"
             android:icon="@drawable/ic_usb_audio"

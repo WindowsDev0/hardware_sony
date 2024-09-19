@@ -21,7 +21,6 @@ class XperiaSettingsFragment : PreferenceFragmentCompat() {
         xperiaSettingsPackage.setupDisplaySettings()
         xperiaSettingsPackage.setupAudioSettings()
         xperiaSettingsPackage.setupBatterySettings()
-        xperiaSettingsPackage.setupExtMonSettings()
         xperiaSettingsPackage.setupUSBASettings()
         xperiaSettingsPackage.setupDSMSettings()
         xperiaSettingsPackage.setupACCUISettings()
