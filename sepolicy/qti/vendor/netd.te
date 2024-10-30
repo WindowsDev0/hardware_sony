@@ -1,0 +1,2 @@
+type sysfs_net_mtu;
+allow netd sysfs_net_mtu:file { create getattr read write }; 

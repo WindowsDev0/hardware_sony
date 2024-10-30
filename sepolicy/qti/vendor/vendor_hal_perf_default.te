@@ -1,0 +1,2 @@
+allow vendor_hal_perf_default sysfs:dir { add_name };
+allow vendor_hal_perf_default sysfs:file { create };

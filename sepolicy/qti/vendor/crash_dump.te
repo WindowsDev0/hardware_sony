@@ -1,4 +1,4 @@
 allow crash_dump init:process ptrace;
 allow crash_dump selinuxfs:file { open read };
 allow crash_dump system_bootstrap_lib_file:dir search;
-allow crash_dump system_bootstrap_lib_file:file { read execute open };
+allow crash_dump system_bootstrap_lib_file:file { read execute open getattr map };
