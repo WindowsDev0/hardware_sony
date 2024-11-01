@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
     <string name="app_name" translatable="true">ایکسپیریا چارجر</string>
 
     <!-- Battery Care -->
-    <string name="advanced_charger_title">بیٹری کی دیکھ بھال</string>
-    <string name="charger_setting_main_enable_title">بیٹری کیئر کا استعمال کریں۔</string>
-    <string name="device_charging_enable_title">چارجنگ موقوف کریں۔</string>
-    <string name="device_charging_enable_summary">موقوف چارجنگ کو آف کرنے سے فون کے سسٹمز کو بیٹری چارج کرنے کی بجائے براہ راست طاقت ملے گی۔\nیہ تھرمل تناؤ کو کم کرتا ہے، گیمنگ کی کارکردگی کو برقرار رکھنے اور آپ کی بیٹری کو زیادہ دیر تک صحت مند رکھنے میں مدد کرتا ہے۔</string>
-    <string name="device_charging_control_title">چارج کرنے کی حد</string>
-    <string name="charger_setting_explained">اگر بیٹری کیئر کو فعال کیا جاتا ہے، تو آلہ صرف اس وقت چارج ہونا شروع کرے گا جب درج ذیل تقاضے پورے ہوں گے:\n 1. آپ نے \"چارجنگ موقوف کریں۔\" ٹوگل کرکے چارجنگ کو فعال کیا ہے۔\n 2. آپ کے آلے کی بیٹری کی سطح کم ہے۔ آپ کی مقرر کردہ چارجنگ کی حد سے زیادہ۔\n\n\nجب بیٹری کی عمر بڑھانے کے لیے ایک متعین فیصد تک پہنچ جائے تو چارج کرنا بند ہو جاتا ہے۔\nاس حد کو %80 پر سیٹ کرنے سے اور بھی بہتر نتائج برآمد ہوتے ہیں۔</string>
+    <string name="charger_settings_title">باتری کی دیکھ بھال</string>
+    <string name="charger_bc_enable">باتری کی دیکھ بھال استعمال کریں</string>
+    <string name="charger_hs_enable">H.S. طاقت کنٹرول</string>
+    <string name="charger_hs_summary">H.S. طاقت کنٹرول کو بند کرنا فون کے نظام کو براہ راست بجلی فراہم کرے گا بجائے اس کے کہ وہ بیٹری کو چارج کرے۔\n یہ حرارتی دباؤ کو کم کرتا ہے، جو گیمز کی کارکردگی کو برقرار رکھنے اور بیٹری کی طویل عمر کو یقینی بنانے میں مدد کرتا ہے۔</string>
+    <string name="charger_bc_limit">چارجنگ حد</string>
+    <string name="charger_settings_footer">اگر بیٹری کی دیکھ بھال فعال ہو، تو یہ آلہ صرف پھر چارج شروع کرے گا جب یہ درج ذیل شرائط پوری ہو جائیں:1. آپ نے "H.S. طاقت کنٹرول" کو آن کر چارجنگ کو فعال کیا ہے۔2. آپ کے آلے کی بیٹری کا سطح آپ نے مقرر کردہ چارجنگ حد سے کم ہے۔\n\nچارجنگ کو بیٹری کی عمر بڑھانے کے لیے ایک مخصوص فیصد تک پہنچنے پر بند کر دیا جاتا ہے۔اس حد کو 80% پر رکھنے سے بہتر نتائج مل سکتے ہیں۔</string>
 
     <!-- H.S (Heat Suppression) Power Control QS Tile -->
-    <string name="charger_qs_tile_title">چارجنگ موقوف کریں۔</string>
+    <string name="charger_hs_tile">H.S. طاقت کنٹرول</string>
 </resources>

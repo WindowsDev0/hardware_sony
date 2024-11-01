@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
     <string name="app_name" translatable="true">Xperia Oplader</string>
 
     <!-- Battery Care -->
-    <string name="advanced_charger_title">Batterijverzorging</string>
-    <string name="charger_setting_main_enable_title">Gebruik Batterijonderhoud</string>
-    <string name="device_charging_enable_title">Pauzeer het Opladen</string>
-    <string name="device_charging_enable_summary">Als je Onderbrekend opladen uitschakelt, worden de telefoonsystemen rechtstreeks van stroom voorzien in plaats van dat de batterij wordt opgeladen.\nDit vermindert de thermische belasting, waardoor de gameprestaties behouden blijven en je batterij langer gezond blijft.</string>
-    <string name="device_charging_control_title">Oplaadlimiet</string>
-    <string name="charger_setting_explained">Als Batterijonderhoud is ingeschakeld, begint het apparaat alleen met opladen als aan de volgende vereisten is voldaan:\n 1. Je hebt het opladen ingeschakeld door naar \"Pauzeer het Opladen\" te schakelen.\n 2. Het batterijniveau van je apparaat is lager dan de oplaadlimiet die je hebt ingesteld.\n\n\nHet opladen stopt wanneer een bepaald percentage is bereikt om de levensduur van de batterij te verlengen.\nHet instellen van die limiet op 80% levert nog betere resultaten op.</string>
+    <string name="charger_settings_title">Batterijonderhoud</string>
+    <string name="charger_bc_enable">Batterijonderhoud Gebruiken</string>
+    <string name="charger_hs_enable">H.S. Stroombeheer</string>
+    <string name="charger_hs_summary">Als je H.S. Stroombeheer uitschakelt, krijgt het telefoonnetwerk rechtstreeks stroom in plaats van dat de batterij wordt opgeladen.\nDit vermindert thermische stress, wat helpt om de spelprestaties te behouden en de levensduur van de batterij te verlengen.</string>
+    <string name="charger_bc_limit">Laadgrens</string>
+    <string name="charger_settings_footer">Als Batterijonderhoud is ingeschakeld, begint het apparaat alleen te laden wanneer de volgende voorwaarden zijn voldaan:\n 1. Je hebt de optie "H.S. Stroombeheer" ingeschakeld om het laden te activeren.\n 2. Het batteriniveau van het apparaat is lager dan de door jou ingestelde laadgrens.\n\n\nHet laden wordt gestopt wanneer een bepaalde percentage is bereikt om de levensduur van de batterij te verlengen.\nHet instellen van deze limiet op 80% levert nog betere resultaten op.</string>
 
     <!-- H.S (Heat Suppression) Power Control QS Tile -->
-    <string name="charger_qs_tile_title">Pauzeer het Opladen</string>
+    <string name="charger_hs_tile">H.S. Stroombeheer</string>
 </resources>

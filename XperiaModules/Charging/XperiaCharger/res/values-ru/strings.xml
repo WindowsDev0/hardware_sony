@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>  
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
     <string name="app_name" translatable="true">Xperia зарядное устройство</string>
 
     <!-- Battery Care -->
-    <string name="advanced_charger_title">Уход за аккумулятором</string>
-    <string name="charger_setting_main_enable_title">Используйте уход за аккумулятором</string>
-    <string name="device_charging_enable_title">Пауза зарядки</string>
-    <string name="device_charging_enable_summary">Отключение функции «Пауза зарядки» обеспечит питание телефонных систем напрямую, а не зарядку аккумулятора.\nЭто снижает термическую нагрузку, помогает поддерживать производительность в играх и дольше сохранять работоспособность аккумулятора.</string>
-    <string name="device_charging_control_title">Лимит зарядки</string>
-    <string name="charger_setting_explained">Если функция «Уход за аккумулятором» включена, устройство начнет заряжаться только при выполнении следующих требований:\n 1. Вы включили зарядку, переключив «Пауза зарядки».\n 2. Уровень заряда батареи вашего устройства ниже. превышает установленный вами предел зарядки.\n\n\nЗарядка прекращается при достижении указанного процента, чтобы продлить срок службы аккумулятора.\nУстановка этого предела на 80% дает еще лучшие результаты.</string>
+    <string name="charger_settings_title">Уход за батареей</string>
+    <string name="charger_bc_enable">Использовать уход за батареей</string>
+    <string name="charger_hs_enable">Управление мощностью H.S.</string>
+    <string name="charger_hs_summary">Отключение управления мощностью H.S. означает, что системы телефона будут получать питание напрямую, а не заряжать аккумулятор.\nЭто снизит термический стресс, что поможет сохранить производительность игр и продлить срок службы аккумулятора.</string>
+    <string name="charger_bc_limit">Лимит зарядки</string>
+    <string name="charger_settings_footer">Если уход за батареей включен, устройство начнет заряжаться только при выполнении следующих условий:\n 1. Вы активировали зарядку, переключившись на "Управление мощностью H.S.".\n 2. Уровень заряда батареи устройства ниже установленного вами лимита зарядки.\n\n\nЗарядка прекратится, когда будет достигнут определенный процент, чтобы продлить срок службы аккумулятора.\nУстановка этого лимита на 80% даст еще лучшие результаты.</string>
 
     <!-- H.S (Heat Suppression) Power Control QS Tile -->
-    <string name="charger_qs_tile_title">Пауза зарядки</string>
+    <string name="charger_hs_tile">Управление мощностью H.S.</string>
 </resources>

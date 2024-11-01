@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
     <string name="app_name" translatable="true">Xperia Ladegerät</string>
 
     <!-- Battery Care -->
-    <string name="advanced_charger_title">Batteriepflege</string>
-    <string name="charger_setting_main_enable_title">Verwenden Sie Batteriepflege</string>
-    <string name="device_charging_enable_title">Ladevorgang Unterbrechen</string>
-    <string name="device_charging_enable_summary">Durch Ausschalten der Pause-Ladefunktion werden die Telefonsysteme direkt mit Strom versorgt, anstatt den Akku aufzuladen.\nDies reduziert die thermische Belastung und trägt dazu bei, die Spieleleistung aufrechtzuerhalten und den Akku länger gesund zu halten.</string>
-    <string name="device_charging_control_title">Ladelimit</string>
-    <string name="charger_setting_explained">Das Deaktivieren der Ladeunterbrechung versorgt die Telefonsysteme direkt mit Strom, anstatt den Akku aufzuladen. Dies verringert die thermische Belastung, unterstützt die Aufrechterhaltung der Spieleleistung und trägt dazu bei, die Akkulaufzeit zu verlängern.</string>
+    <string name="charger_settings_title">Akku-Pflege</string>
+    <string name="charger_bc_enable">Akku-Pflege Verwenden</string>
+    <string name="charger_hs_enable">H.S. Leistungssteuerung</string>
+    <string name="charger_hs_summary">Wenn Sie die H.S.-Leistungssteuerung deaktivieren, werden die Telefonsysteme direkt mit Strom versorgt, anstatt den Akku zu laden.\nDies reduziert die thermische Belastung, trägt dazu bei, die Spieleleistung aufrechtzuerhalten und die Lebensdauer Ihres Akkus zu verlängern.</string>
+    <string name="charger_bc_limit">Ladelimit</string>
+    <string name="charger_settings_footer">Wenn die Akku-Pflege aktiviert ist, beginnt das Gerät erst mit dem Laden, wenn die folgenden Voraussetzungen erfüllt sind:\n 1. Sie haben das Laden aktiviert, indem Sie "H.S. Leistungssteuerung" eingeschaltet haben.\n 2. Der Akkuladestand Ihres Geräts liegt unter dem von Ihnen festgelegten Ladelimit.\n\n\nDas Laden wird gestoppt, wenn ein bestimmter Prozentsatz erreicht ist, um die Lebensdauer des Akkus zu verlängern.\nWenn Sie diesen Grenzwert auf 80 % einstellen, erzielen Sie noch bessere Ergebnisse.</string>
 
-    <!-- Refresh Rate QS Tile -->
-    <string name="refresh_rate_tile_title">Aktualisierungsrate</string>
+    <!-- H.S (Heat Suppression) Power Control QS Tile -->
+    <string name="charger_hs_tile">H.S. Leistungssteuerung</string>
 </resources>

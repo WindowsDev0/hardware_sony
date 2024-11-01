@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -22,11 +22,11 @@
     <!-- Battery Care -->
     <string name="charger_settings_title">Battery Care</string>
     <string name="charger_bc_enable">Use Battery Care</string>
-    <string name="charger_hs_enable">Pause Charging</string>
-    <string name="charger_hs_summary">Turning Pause Charging off will power the phone systems directly rather than charging the battery.\nThis reduces thermal stress, helping to maintain gaming performance and keep your battery healthy for longer.</string>
+    <string name="charger_hs_enable">H.S. Power Control</string>
+    <string name="charger_hs_summary">Turning H.S. Power Control off will power the phone systems directly rather than charging the battery.\nThis reduces thermal stress, helping to maintain gaming performance and keep your battery healthy for longer.</string>
     <string name="charger_bc_limit">Charging Limit</string>
-    <string name="charger_settings_footer">If Battery Care is enabled, the device will start charging only when the following requirements have been met:\n 1. You have enabled charging by toggling \"Pause Charging\" on.\n 2. Your device\'s battery level is lower than the charging limit you\'ve set.\n\n\nCharging stops when a specified percentage is reached to increase the lifespan of the battery.\nSetting that limit to 80% yields even better results.</string>
+    <string name="charger_settings_footer">If Battery Care is enabled, the device will start charging only when the following requirements have been met:\n 1. You have enabled charging by toggling \"H.S. Power Control\" on.\n 2. Your device\'s battery level is lower than the charging limit you\'ve set.\n\n\nCharging stops when a specified percentage is reached to increase the lifespan of the battery.\nSetting that limit to 80% yields even better results.</string>
 
     <!-- H.S (Heat Suppression) Power Control QS Tile -->
-    <string name="charger_hs_tile">Pause Charging</string>
+    <string name="charger_hs_tile">H.S. Power Control</string>
 </resources>

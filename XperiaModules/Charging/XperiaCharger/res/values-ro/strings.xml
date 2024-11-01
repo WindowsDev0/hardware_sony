@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
     <string name="app_name" translatable="true">Încărcător Xperia</string>
 
     <!-- Battery Care -->
-    <string name="advanced_charger_title">Îngrijirea Bateriei</string>
-    <string name="charger_setting_main_enable_title">Utilizați Îngrijirea Bateriei</string>
-    <string name="device_charging_enable_title">Oprirea Încărcării</string>
-    <string name="device_charging_enable_summary">Deactivarea opțiunii „Oprirea Încărcării“ ,v-a redirecționa puterea de la încărcator la sistemele telefonului care vor alimentate direct, iar încărcarea bateriei v-a fi oprită.\nAcestă opțiune reduce stresul termic, ajutând la menținerea performanței în jocuri și la menținerea bateriei pe un termen lung.</string>
-    <string name="device_charging_control_title">Limită Încărcării</string>
-    <string name="charger_setting_explained">După activarea Îngrijirea Bateriei, dispozitivul va începe să se încarce numai când următoarele cerințe sunt îndeplinite:\n 1. Ați activat opțiunea \"Oprirea Încărcării\".\n 2. Nivelul bateriei dispozitivului dvs. este sub limita de încărcare pe care ați setat-o.\n\n\nÎncărcarea se oprește atunci când este atins procentul setat de dvs. pentru a crește durata de viață a bateriei.\nSetarea acestei limite la 80% produce rezultate și mai bune.</string>
+    <string name="charger_settings_title">Îngrijire baterie</string>
+    <string name="charger_bc_enable">Utilizează Îngrijire baterie</string>
+    <string name="charger_hs_enable">Controlul Puterii H.S.</string>
+    <string name="charger_hs_summary">Dezactivarea Controlului Puterii H.S. va face ca sistemele telefonului să primească energie direct, în loc să se încarce bateria.\nAcest lucru reduce stresul termic, ajutând la menținerea performanței jocurilor și la prelungirea duratei de viață a bateriei.</string>
+    <string name="charger_bc_limit">Limit încărcare</string>
+    <string name="charger_settings_footer">Dacă Îngrijirea bateriei este activată, dispozitivul va începe să se încarce doar atunci când sunt îndeplinite următoarele condiții:\n 1. Ai activat încărcarea prin comutarea pe "Controlul Puterii H.S.".\n 2. Nivelul bateriei dispozitivului este mai mic decât limita de încărcare pe care ați stabilit-o.\n\n\nÎncărcarea se oprește când se atinge un procent specific pentru a prelungi durata de viață a bateriei.\nSetarea acestei limite la 80% oferă rezultate și mai bune.</string>
 
     <!-- H.S (Heat Suppression) Power Control QS Tile -->
-    <string name="charger_qs_tile_title">Oprirea Încărcării</string>
+    <string name="charger_hs_tile">Controlul Puterii H.S.</string>
 </resources>

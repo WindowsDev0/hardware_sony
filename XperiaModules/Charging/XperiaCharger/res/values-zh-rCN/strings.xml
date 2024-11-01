@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
     <string name="app_name" translatable="true">Xperia 充电器</string>
 
     <!-- Battery Care -->
-    <string name="advanced_charger_title">电池保养</string>
-    <string name="charger_setting_main_enable_title">使用电池保养</string>
-    <string name="device_charging_enable_title">暂停充电</string>
-    <string name="device_charging_enable_summary">关闭暂停充电功能将直接为手机系统供电，而不是给电池充电。\n这样做可以减少热应力，有助于保持游戏性能并延长电池的使用寿命。</string>
-    <string name="device_charging_control_title">充电限制</string>
-    <string name="charger_setting_explained">如果启用了电池管理，设备将仅在满足以下要求时开始充电：\n 1. 您通过切换“暂停充电”来启用充电。\n 2. 您设备的电池电量低于您设置的充电限制。\n\n\n达到指定百分比时停止充电，以延长电池的使用寿命。\n推荐将该限制设置为 80% 。</string>
+    <string name="charger_settings_title">电池护理</string>
+    <string name="charger_bc_enable">使用电池护理</string>
+    <string name="charger_hs_enable">H.S. 电源控制</string>
+    <string name="charger_hs_summary">关闭 H.S. 电源控制将使手机系统直接获取电源，而不是从电池充电。\n这将减少热应力，有助于保持游戏性能并延长电池寿命。</string>
+    <string name="charger_bc_limit">充电限制</string>
+    <string name="charger_settings_footer">如果电池护理已启用，设备将仅在满足以下条件时开始充电：\n 1. 您已通过切换“H.S.电源控制”来启用充电。\n 2. 设备电池电量低于您设定的充电限制。\n\n\n充电会在达到特定百分比时停止，以延长电池寿命。\n将此限制设置为80%可以获得更好的结果。</string>
 
     <!-- H.S (Heat Suppression) Power Control QS Tile -->
-    <string name="charger_qs_tile_title">暂停充电</string>
+    <string name="charger_hs_tile">H.S. 电源控制</string>
 </resources>

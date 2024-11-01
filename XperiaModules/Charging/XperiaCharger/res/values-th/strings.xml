@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@
     <string name="app_name" translatable="true">ชาร์จเจอร์เอ็กเพรีย</string>
 
     <!-- Battery Care -->
-    <string name="advanced_charger_title">การดูแลแบตเตอรี่</string>
-    <string name="charger_setting_main_enable_title">ใช้การดูแลแบตเตอรี่</string>
-    <string name="device_charging_enable_title">หยุดการชาร์จชั่วคราว</string>
-    <string name="device_charging_enable_summary">การปิดการชาร์จชั่วคราวจะเป็นการจ่ายไฟให้ระบบโทรศัพท์โดยตรงแทนที่จะชาร์จแบตเตอรี่\nซึ่งจะช่วยลดความเครียดจากความร้อน ช่วยรักษาประสิทธิภาพการเล่นเกมและรักษาแบตเตอรี่ให้แข็งแรงได้นานขึ้น.</string>
-    <string name="device_charging_control_title">ขีดจำกัดการชาร์จ</string>
-    <string name="charger_setting_explained">หากเปิดใช้งานการถนอมแบตเตอรี่ อุปกรณ์จะเริ่มชาร์จเมื่อเป็นไปตามข้อกำหนดต่อไปนี้เท่านั้น:\n 1. คุณได้เปิดใช้งานการชาร์จโดยสลับ \"หยุดการชาร์จชั่วคราว\."\n 2. ระดับแบตเตอรี่ของอุปกรณ์ของคุณต่ำลง เกินขีดจำกัดการชาร์จที่คุณตั้งไว้\n\n\nการชาร์จจะหยุดลงเมื่อถึงเปอร์เซ็นต์ที่ระบุเพื่อเพิ่มอายุการใช้งานของแบตเตอรี่\nการตั้งค่าขีดจำกัดนั้นไว้ที่ 80% จะให้ผลลัพธ์ที่ดียิ่งขึ้นไปอีก</string>
+    <string name="charger_settings_title">การดูแลแบตเตอรี่</string>
+    <string name="charger_bc_enable">ใช้การดูแลแบตเตอรี่</string>
+    <string name="charger_hs_enable">ควบคุมพลังงาน H.S.</string>
+    <string name="charger_hs_summary">การปิดใช้งานควบคุมพลังงาน H.S. จะทำให้ระบบโทรศัพท์ได้รับพลังงานโดยตรงแทนที่จะชาร์จแบตเตอรี่\nสิ่งนี้จะช่วยลดความเครียดทางความร้อน ช่วยให้ประสิทธิภาพการเล่นเกมคงที่และยืดอายุการใช้งานแบตเตอรี่</string>
+    <string name="charger_bc_limit">ขีดจำกัดการชาร์จ</string>
+    <string name="charger_settings_footer">หากการดูแลแบตเตอรี่เปิดใช้งานแล้ว อุปกรณ์จะเริ่มชาร์จเฉพาะเมื่อเงื่อนไขต่อไปนี้เป็นจริง:\n 1. คุณได้เปิดการชาร์จโดยการเปิด "ควบคุมพลังงาน H.S." \n 2. ระดับแบตเตอรี่ของอุปกรณ์ต่ำกว่าขีดจำกัดการชาร์จที่คุณได้ตั้งค่า\n\n\nการชาร์จจะหยุดเมื่อถึงเปอร์เซ็นต์ที่กำหนดเพื่อยืดอายุการใช้งานแบตเตอรี่\nการตั้งค่าขีดจำกัดนี้เป็น 80% จะให้ผลลัพธ์ที่ดีขึ้น</string>
 
     <!-- H.S (Heat Suppression) Power Control QS Tile -->
-    <string name="charger_qs_tile_title">หยุดการชาร์จชั่วคราว</string>
+    <string name="charger_hs_tile">ควบคุมพลังงาน H.S.</string>
 </resources>
